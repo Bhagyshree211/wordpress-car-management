@@ -1,0 +1,112 @@
+/*!
+Theme Name: Car Custom Post Type
+Theme URI: http://underscores.me/
+Author: Underscores.me
+Author URI: http://underscores.me/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: car-custom-post-type
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Car Custom Post Type is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+.car-info-form {
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.car-info-form h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.car-info-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.car-info-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.car-info-form input[type="text"],
+.car-info-form select,
+.car-info-form input[type="file"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.car-info-form input[type="radio"] {
+    margin-right: 10px;
+}
+
+.car-info-form input[type="radio"] + label {
+    margin-right: 20px;
+    font-size: 16px;
+    color: #333;
+}
+
+.car-info-form button {
+    padding: 10px 15px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #545351;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.car-info-form button:hover {
+    background-color: #0056b3;
+}
+
+.car-info-form br {
+    display: none;
+}
+
+.car-list-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.car-list-table th, .car-list-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.car-list-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.car-list-table td img {
+    max-width: 100px;
+    height: auto;
+}
